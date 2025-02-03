@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+        width: auto;
+        position: static;
+        flex-direction: row;
+        background-color: transparent;
     &__navigation {
         @media screen and (max-width: 800px ){
         position: absolute;
@@ -11,16 +15,13 @@
         padding: 20px;
         flex-direction: column; 
         }
-        width: auto;
-        position: static;
-        flex-direction: row;
-        background-color: transparent;
+
                                                                    
     }
 
     &__logo{
         img{
-            width: 100px;
+            width: 150px;
         }
     }
 }

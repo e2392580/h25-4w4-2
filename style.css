@@ -57,12 +57,20 @@ p {
 /* /////////////////////////////////
 Les composants
 //////////////////////////////////// */
-/* ----------------------------------------- .menu */
+/* ---------------------------------- .menu */
 .menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   list-style-type: none;
   gap: 10px 0;
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+.menu__li {
+  margin: 3px 0;
 }
 .menu__li a {
   text-decoration: none;
@@ -106,11 +114,28 @@ Les layouts
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: auto;
+  position: static;
+  flex-direction: row;
+  background-color: transparent;
 }
-.entete__navigation {
+@media screen and (max-width: 800px) {
+  .entete__navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 20px;
+    flex-direction: column;
+  }
+}
+.entete__logo img {
+  width: 150px;
+}
+
+.galerie__img {
+  width: 300px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .hero {
