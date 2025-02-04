@@ -3,6 +3,9 @@
     display: flex;
     @media screen and (max-width: 800px){
         flex-direction: column;
+        #chkBurger {
+            display : none;
+        }
     }
     flex-direction: row;
     list-style-type: none;
