@@ -249,8 +249,10 @@ Les layouts
   height: 10rem;
 }
 
-h4 {
-  text-align: center;
+h1 {
+  margin-left: 130px;
+  margin-top: 50px;
+  font-size: 2rem;
 }
 
 .hero {
