@@ -256,4 +256,9 @@ h4 {
 .hero {
   background-image: url("images/maldives.jpg");
   min-height: 90vh;
+}
+.hero__bouton {
+  background-color: rgb(112, 255, 255);
+  border: 1px solid blue;
+  border-radius: 1px;
 }/*# sourceMappingURL=style.css.map */
