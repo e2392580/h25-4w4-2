@@ -1,0 +1,11 @@
+.hero{
+    background-image: url("images/maldives.jpg");
+    min-height: 90vh;
+    background-repeat: no-repeat;
+
+    &__bouton{
+        background-color: rgb(112, 255, 255);
+        border: 1px solid blue;
+        border-radius: 1px;
+    }
+}

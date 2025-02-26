@@ -1,0 +1,21 @@
+/* ---------------------------------- .menu */
+.menu{ //u
+    display: flex;
+    @media screen and (max-width: 800px){
+        flex-direction: column;
+    }
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px 0;
+    &-item{ // li
+
+        a{ //a
+            text-decoration: none;
+            padding: 4px;
+        }
+    }
+}
+.menu__li a{
+    font-family: Arial, sans-serif;
+    color: black;
+}
