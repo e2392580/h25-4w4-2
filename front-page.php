@@ -12,7 +12,7 @@
                 5800 Sherbrooke-est - Montréal (Québec) H1X 2A2
             </p>
             <p class="hero__telephone">
-                514-123-4567
+                514-123-1234
             </p>
             <div class="hero__icone">
                 <img src="https://s2.svgbox.net/social.svg?ic=facebook&color=000000" width="20" height="20">
