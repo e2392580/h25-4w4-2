@@ -24,6 +24,7 @@
         justify-content: space-between; // Répartit l’espace verticalement
         flex-grow: 1; // Remplit l’espace restant pour garder une hauteur égale
         padding: 16px;
+        background-color: rgb(184, 241, 255);
     }
 
     &__titre {
@@ -42,6 +43,8 @@
         align-self: flex-start;
         padding: 6px 12px;
         text-decoration: none;
-        border: 1px solid black;
+        border: 2px solid black;
+        border-radius: 12%;
+        color: rgb(0, 0, 0);
     }
 }

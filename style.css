@@ -132,6 +132,7 @@ Les composants
   justify-content: space-between;
   flex-grow: 1;
   padding: 16px;
+  background-color: rgb(184, 241, 255);
 }
 .carte__titre {
   font-size: 1.2rem;
@@ -147,7 +148,9 @@ Les composants
   align-self: flex-start;
   padding: 6px 12px;
   text-decoration: none;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 12%;
+  color: rgb(0, 0, 0);
 }
 
 /*.galerie__img{
