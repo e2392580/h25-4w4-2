@@ -1,27 +1,47 @@
-
-
-.carte{
+.carte {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    &--grande{
-        flex: 1 1 250px;
-    }
-    &__image{
+    width: 100%;
+    max-width: 350px; // Ajustable si besoin
+    height: 100%; // Assure que toutes les cartes ont la même hauteur
+    border: 1px solid #ddd;
+    border-radius: 8px;
 
-        img{
+    &__image {
+        width: 100%;
+        height: 200px; // Uniformise la taille des images
+
+        img {
             width: 100%;
+            height: 100%;
+            object-fit: cover; // Assure une bonne mise en page sans déformation
         }
     }
-    &__contenu{
-        background-color: aliceblue;
-    }
-    &__titre{
-        
-    }
-    &__description{}
-    &__bouton{
-        &--actif{}
+
+    &__contenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; // Répartit l’espace verticalement
+        flex-grow: 1; // Remplit l’espace restant pour garder une hauteur égale
+        padding: 16px;
     }
 
+    &__titre {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    &__description {
+        flex-grow: 1; // Permet d’ajuster la hauteur et de garder un alignement propre
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+
+    &__bouton {
+        align-self: flex-start;
+        padding: 6px 12px;
+        text-decoration: none;
+        border: 1px solid black;
+    }
 }

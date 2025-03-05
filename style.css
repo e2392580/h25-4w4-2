@@ -111,17 +111,45 @@ Les composants
 .carte {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
-.carte--grande {
-  flex: 1 1 250px;
+.carte__image {
+  width: 100%;
+  height: 200px;
 }
 .carte__image img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .carte__contenu {
-  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 16px;
 }
+.carte__titre {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.carte__description {
+  flex-grow: 1;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+.carte__bouton {
+  align-self: flex-start;
+  padding: 6px 12px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
 /*.galerie__img{
     width: 300px;
     display: flex;
