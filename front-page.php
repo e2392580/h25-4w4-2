@@ -39,7 +39,7 @@
     <section class="galerie">
 
             <h1>Nos destinations favoris</h1>
-            <div class="galerie global">
+            <!-- <div class="galerie global">
             <figure class="galerie__figure">
                 <img src="images/photo1.jpg" alt="" class="galerie__img">
             </figure>
@@ -70,7 +70,7 @@
             <figure class="galerie__figure">
                 <img src="images/photo10.jpg" alt="" class="galerie__img">
             </figure>
-        </div>
+        </div> -->
     </section>
     <section class="populaire">
         <div class="global">
