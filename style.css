@@ -166,6 +166,7 @@ Les layouts
 .populaire .global {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .entete {
